@@ -1,0 +1,16 @@
+REQUISITES
+
+- Concept of accounts
+- Transaction as a means of transfering value from one account to another
+- Every transaction has a description
+- There has to be a way of value entering and exiting
+- Those have to be transactions too
+- Concept of obligation of payment and right of receiving
+- Those too can be passed by transactions
+- A transaction can too generate this obligations
+- Definition of asset
+- An asset has to have an associated value
+- This value can change
+- Concept of virtual and real accounts
+- Values of virtual accounts can be linked to values of virtual or real accounts
+

@@ -1,0 +1,50 @@
+ACCOUNT
+-id
+-name
+-description
+-type(real, virtual, asset)
+if virtual or real{
+  -list{
+    -right
+    -situation(obligated, entitled)
+  }
+}
+if virtual{
+  -list{
+    -account<real>
+    -value owned
+  }
+  -list{
+    -account<asset>
+    -percentage owned
+  }
+}
+
+-----------------------------------------
+TRANSACTION
+-id
+-accounts[origin,destiny]
+-timestamp
+-description
+if origin in [real, virtual]
+  -value
+if origin is asset {
+  -list{
+    -asset
+    -percentage
+  }
+}
+if creates RIGHT
+  -right
+
+-----------------------------------------
+RIGHT
+-id
+-transaction
+-accounts[obligated, entitled]
+-timestamps[emission, expiration]
+-base date of margin
+-margin calculation formula
+-situation
+-base value
+-value

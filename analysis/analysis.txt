@@ -1,0 +1,53 @@
+Conta
+-id
+-nome
+-descrição
+-valor direitos
+-valor obrigações
+-valor real
+  > conta real
+  > valor real
+-bem real
+  > conta real
+  > bem real
+-valor total
+
+Transação
+-id
+-conta origem
+-conta destino
+-timestamp
+-valor
+-descrição
+
+Direito
+-id
+-transação, transação real ou bem de origem
+-conta obrigada
+-conta entitulada
+-timestamp emissao
+-timestamp vencimento
+-multiplicador juros
+-data base juros
+
+Bem
+-id
+-descrição
+-valor
+
+Conta Real
+-id
+-nome
+-descricao
+-bens
+
+Transação real
+-id
+-conta real origem
+-conta real destino
+-timestamp
+-valor
+-bem
+-descricao
+
+

@@ -1,0 +1,44 @@
+Conta
+-id
+-nome
+-descricao
+-real/virtual/ativo
+//usado em conta virtual/real
+-lista direitos
+-lista obrigações
+//usado em conta virtual
+-lista conta real + valor
+-lista ativo + valor
+//usado em conta real
+-valor
+//usado em ativo
+-valor
+//todos
+-valor total
+
+Transação
+-id
+-conta origem
+-conta destino
+(se valor de origem real destino tem que ser também)
+-timestamp
+-valor
+-descrição
+//Se cria direito
+-direito
+//Se transfere bem ou parte
+-bem + porcentagem
+
+Direito
+-id
+-transação vinculada
+-conta entitulada
+-conta obrigada
+-timestamp emissão
+-timestamp vencimento
+-data base juros
+-formula calculo juros
+
+
+
+

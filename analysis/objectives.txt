@@ -1,0 +1,10 @@
+OBJECTIVES
+
+- Know how much i have to every type of spending
+- Enable transfering and reasoning on this virtual spending accounts
+- Make informative auditing and and reports for analysis
+- Calculate non-liquid values and obligations
+- Factor values originated from assets
+- Manage patrimony
+- Make patrimony evaluation and analisys simple
+
