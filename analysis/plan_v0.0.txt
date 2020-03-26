@@ -1,0 +1,10 @@
+- Create database model
+- Create concept for account as the virtual on the analysis
+- Create concept for transaction as virtual to virtual on analysis
+- cmd for create account
+- cmd for remove account
+- cmd for transaction
+- cmd for remove transaction
+- cmd for show account details
+
+

@@ -1,0 +1,11 @@
+NODE
+
+Javascript é umainguagem bem comum, com desenvolvimento simples e intuitivo, com quantidade enorme de documentação e pacotes. Já usada por várias empresas. Além do mais tem grande suporte atualmente, e provavelmente vai ser usada por muito tempo.
+
+Aplicações construídas com node estão ficando mais comuns, com varias ferramentas de linha de comando ja usando a ferramenta.
+
+Por ter um overhead pequeno para iniciar também é usado em sistemas que utilizam arquitetura de microservices, o que mostra sua propiciedade para construção de ferramentas minimalistas e distribuidas.
+
+Com relação a seu uso em finanças, ela consegue ser usada em aplicações financeiras, em empresas como por exeplo PayPal, que devemos concordar que tem requerimentos um tanto quanto extremos, além de outras empresas.
+
+Sua desvantagem vem do fato de ser uma linguagem lenta, pois, de certo modo, sempre tem que rodar dentro da engine de um browser, portanto não é possivel otimizar tanto sua performance. É uma linguagem sem tipos, o que pode oferecer problemas pela sua falta de segurança.

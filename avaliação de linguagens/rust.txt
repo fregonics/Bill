@@ -1,0 +1,11 @@
+RUST
+
+Rust é uma linguagem focada na intermediação de otimização e segurança contra erros, por isso pode ter sucesso em aplicações que precisem de uma performance otimizada, e que precisam segurança em seus resultados.
+
+Um dos problemas da linguagem é sua falta de ferramentas predesenvolvidas para sistemas financeiros, pois para estes é mais comum ser usado python para fazer binding de outras bibliotecas.
+
+A linguagem tem um modelo bem amadurecido para aplicações de linha de comando, até por sua origem vir da plataforma linux.
+
+A linguagem também tem uma Web Stack bem desenvolvida, por atualmente estar sendo usada para substituir Go aplicações do tipo, o que a tornaria util para este modo de evolução.
+
+O grande problema dela neste caso seria o mesmo de go, o seu foco em solução de problemas em infraestrutura, apesar de ela tem um toolkit bem mais ampliado.
