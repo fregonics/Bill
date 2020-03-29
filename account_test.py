@@ -1,5 +1,6 @@
 import unittest
 import account as ac
+import mysql.connector
 
 class AccountTest(unittest.TestCase):
     def test_create(self):
