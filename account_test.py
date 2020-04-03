@@ -14,7 +14,7 @@ class AccountTest(unittest.TestCase):
         accId = acc.saveOnDatabase()
 
         ac2 = ac.getFromDatabase(accId)
-        self.assertEqual(ac2.getName() + "-" + ac2.getDescription(), "test-This is a test account",
+        self.assertEqual(str(ac2.getName()) + "-" + str(ac2.getDescription()), "test-This is a test account",
                 "Assert if the creation and deletion on database works")            
 
 
