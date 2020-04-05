@@ -7,9 +7,16 @@ ACCOUNT_SEARCH_WITH_ID_QUERY = 'select ID, NAME, DESCRIPTION, INNERVALUE from AC
 
 class Account:
 
-    def __init__(self, _name):
-        self.name = _name
-        self.value = 0
+    def __init__(self, data):
+        if(isinstance(data, str)):
+            self.id = None
+            self.name = data
+            self.value = 0
+        else:
+            self.id = data[0]
+            self.name = data[1]
+            self.description = data[2]
+            self.value = data[3]
     
     #Set methods
     def setDescription(self, _description):
@@ -29,6 +36,9 @@ class Account:
         return self
     
     #Persistent storage methods
+    def isSavedOnDatabase(self):
+        return (not (self.id == None))
+
     def saveOnDatabase(self):
         db = sqlConnection.getConnection()
         cursor = db.cursor()
@@ -44,9 +54,9 @@ class Account:
         cursor.close()
         db.close()
 
-        for i in result:
-            continue
-      
+        i = result[0]
+        self.id = int(i[0])
+        
         return i[0]
 
 def getFromDatabase(accountId):
@@ -60,9 +70,7 @@ def getFromDatabase(accountId):
     cursor.close()
     db.close()
         
-    i = result[0]
+    data = result[0]
 
-    account = Account(i[1])
-    account.setDescription(i[2])
-    account.setValue(i[3])
+    account = Account(data)
     return account
