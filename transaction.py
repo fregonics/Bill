@@ -26,7 +26,7 @@ class Transaction:
         return self.id
     
     def isExecuted(self):
-        return (not self.id == none)
+        return (not self.id == None)
 
     # SET METHODS
     def setDescription(self, _description):
